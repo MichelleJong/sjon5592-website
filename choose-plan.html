@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Drinklivery</title>
+  <link rel="stylesheet" href="styles.css" type="text/css">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+
+<div class="topnav">
+  <div class="w-container"><a href="#" class="w-nav-brand"><img src="images/logo.png" height="100" width="100"</a>
+  </div>
+  <a class="active" href="#home">Home</a>
+  <a href="#news">Our Plans</a>
+  <a href="#contact">About Us</a>
+</div>
+
+<body>
+
+  <main>
+
+    <form action="post.html">
+      <h2>Plan</h2>
+      <p>
+     Choose the plan that suits your needs:
+      </p>
+      <div class="flex-container">
+        <div class="flex-column" data-tilt><img src="images/week.png" height="250" width= "250"><h3>Week Plan</h3>
+          <button id="select" onclick="location.href='choose-plan.html'" type="button">
+          Select</button>
+         </div>
+        <div class="flex-column" data-tilt><img src="images/month.png" height="250" width= "250"><h3>Month Plan</h3>
+          <button id="select" onclick="location.href='choose-plan.html'" type="button">
+            Select</button></div>
+        <div class="flex-column" data-tilt><img src="images/year.png" height="250" width= "250"><h3>Year Plan</h3>
+          <button id="select" onclick="location.href='choose-plan.html'" type="button">
+            Select</button></div>
+        
+      </div>
+
+    </form>
+    <button onclick="location.href='personalinfo.html'" type="button">
+        Next</button>
+
+    
+
+  </main>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
